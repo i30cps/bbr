@@ -1,0 +1,26 @@
+name: BlockBrawls
+version: 0.1
+api-version: '1.20'
+main: rotator.block.brawls.Main
+
+depends: [FastAsyncWorldEdit]
+commands:
+  endgame:
+    permissions: op
+    description: 'Ends the game (For testing)'
+  queue:
+    description: 'Joins the Queue'
+    aliases: ['q']
+  leavequeue:
+    description: 'Leaves the Queue'
+  bbdebug:
+    description: 'Debug command used by the developers. Will likely tell you random information if you run it.'
+  stats:
+    description: 'displays stats.'
+  setvector:
+    description: "Weee!"
+  deck:
+    description: "Opens the deck editor."
+  duel:
+    description: "Challenges someone else to a duel."
+    aliases: ['challenge', 'battle', 'fight']
